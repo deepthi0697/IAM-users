@@ -9,6 +9,9 @@ custom:
   dynamodb:
     start:
       migrate: true
+package:
+  exclude:
+    - node_modules/**
 
 
 provider:
